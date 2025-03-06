@@ -9,9 +9,9 @@ import {
 function App() {
   const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")));
 
-  useEffect(() => {
-    console.log(todos);
-  }, [todos]);
+  // useEffect(() => {
+  //   console.log(todos);
+  // }, [todos]);
 
   // const toggleComplete = (id) => {
   //   setTodos((prev) =>
