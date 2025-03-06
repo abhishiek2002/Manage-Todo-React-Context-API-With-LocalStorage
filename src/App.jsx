@@ -45,7 +45,7 @@ function App() {
 
           <div className="flex flex-col gap-2">
             {/* Todos List */}
-            {todos.map((todo) => (
+            {todos && todos.map((todo) => (
               <div key={todo.id}>
                 <TodoList todo={todo} setTodos={setTodos} />
               </div>
